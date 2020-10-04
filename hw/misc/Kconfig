@@ -146,4 +146,7 @@ config SIFIVE_U_OTP
 config SIFIVE_U_PRCI
     bool
 
+config W1_BUS
+    bool
+
 source macio/Kconfig
