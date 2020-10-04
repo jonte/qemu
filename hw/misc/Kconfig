@@ -149,6 +149,10 @@ config SIFIVE_U_PRCI
 config W1_BUS
     bool
 
+config DS18B20
+    bool
+    depends on W1_BUS
+
 config DS2482
     bool
     depends on I2C
